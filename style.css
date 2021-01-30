@@ -1,0 +1,150 @@
+
+body{
+    background-image: linear-gradient(to bottom right, #ff77a0, #cc8fff, #ffa277);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#000000;
+    /* margin: auto; */
+}
+/* .navbar-brand{
+    padding-top: 40px;
+} */
+nav{
+    color: #000000;
+    /* padding:10px; */
+}
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.65);
+    margin:auto;
+    /* padding:10px; */
+    align-content: center;
+    width:80%;
+    overflow: hidden;
+    /* height:100%; */
+}
+#logo{
+    background-color:none;
+    width:400px;
+    height: auto;
+}
+
+h2{
+    /* text-align: right; */
+    color:#000000;
+    border-bottom: lightgray;
+    border-bottom-width: 5px;
+    text-align:center;
+}
+
+a{
+    color: #000000;
+    text-decoration: underline;
+}
+
+p{
+    padding:10px;
+    color: #000000;
+}
+h3{ 
+    display: block;
+    padding:10px;
+}
+section{
+    display: block;
+}
+.me {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 15px;
+}
+.w3-display-left {
+    float: left;
+}
+.w3-display-right {
+    float: right;
+}
+footer{
+    background-color: #cc8fff;
+    color: #000000; 
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    /* padding-top: 40px; */
+    height:30px;
+    clear: both;
+}
+
+/*Below is for portfolio page only*/
+.slide1{
+    width: 60%;
+    margin: auto;
+}
+.portfolio{
+    position: relative;
+    width: 80%;
+    margin: auto;
+
+}
+.portfolio, img {
+    width: 600px;
+    /* max-height:700px; */
+}
+.slide2{
+    width: 60%;
+    margin: auto;
+}
+.portfolio2{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding:15px;
+
+}
+.portfolio2, img {
+    width: 600px;
+    /* max-height:700px; */
+}
+.overText{
+    position: absolute;
+    color: #000000;
+    bottom: 0px;
+    width: 50%;
+    background: rgba(255,255,255, .75 );
+    font-size: 24px;
+
+}
+.overText, p{
+    padding:2px;
+}
+
+.icon{
+    background-color: #ff77a0;
+}
+
+
+/* resume link style below */
+.Rez {
+    color:black;
+}
+
+
+/*@media below*/
+@media only screen and (max-width: 700px) {
+    .portfolio1, img {
+        width: 100px;
+        /* max-height:700px; */
+    }
+    .portfolio2, img {
+        width: 100px;
+        /* max-height:700px; */
+    }
+    .overText {
+        position: relative;
+      font-size: 11px;
+      width:80%;
+      height: auto;
+    }
+  }
+  
