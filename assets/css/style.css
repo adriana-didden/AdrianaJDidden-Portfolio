@@ -4,23 +4,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color:#000000;
-    /* margin: auto; */
 }
-/* .navbar-brand{
-    padding-top: 40px;
-} */
+
 nav{
     color: #000000;
-    /* padding:10px; */
 }
 .wrapper{
     background-color: rgba(255, 255, 255, 0.65);
     margin:auto;
-    /* padding:10px; */
     align-content: center;
     width:80%;
     overflow: hidden;
-    /* height:100%; */
 }
 #logo{
     background-color:none;
@@ -119,13 +113,13 @@ footer{
     counter-increment: #000000;
 }
 
-
-/* resume link style below */
+/* 
+resume link style below */
 .Rez {
-    /* color:black; */
+    color:black;
     margin: auto;
     width: 80%;
-}
+} 
 
 
 /*@media below*/
@@ -139,10 +133,6 @@ footer{
     h3 {
         font-size: medium;
     }
-    /* .slide1{
-        width: 80%;
-        margin: auto;
-    } */
 
     .portfolio img {
         width: 500px;
