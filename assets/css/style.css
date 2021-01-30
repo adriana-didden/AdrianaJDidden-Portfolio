@@ -29,13 +29,16 @@ nav{
 }
 
 h2{
-    /* text-align: right; */
     color:#000000;
     border-bottom: lightgray;
     border-bottom-width: 5px;
     text-align:center;
 }
-
+h3{ 
+    text-align: center; 
+    display: block;
+    padding:10px;
+}
 a{
     color: #000000;
     text-decoration: underline;
@@ -45,12 +48,9 @@ p{
     padding:10px;
     color: #000000;
 }
-h3{ 
-    display: block;
-    padding:10px;
-}
+
 section{
-    display: block;
+    display: inline;
 }
 .me {
     float: left;
@@ -76,34 +76,40 @@ footer{
     clear: both;
 }
 
+
 /*Below is for portfolio page only*/
 .slide1{
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 .portfolio{
     position: relative;
     width: 80%;
     margin: auto;
+    float: none;
 
 }
-.portfolio, img {
-    width: 600px;
+.portfolio img {
+    width: 80%;
+    margin: auto;
+    
     /* max-height:700px; */
 }
+
 .slide2{
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
-.portfolio2{
+.portfolio2 {
     position: relative;
     width: 80%;
     margin: auto;
-    padding:15px;
+    float: none;
 
 }
-.portfolio2, img {
-    width: 600px;
+.portfolio2 img {
+    width: 80%;
+    margin: auto;
     /* max-height:700px; */
 }
 .overText{
@@ -126,25 +132,33 @@ footer{
 
 /* resume link style below */
 .Rez {
-    color:black;
+    /* color:black; */
+    margin: auto;
+    width: 80%;
 }
 
 
 /*@media below*/
 @media only screen and (max-width: 700px) {
-    .portfolio1, img {
-        width: 100px;
-        /* max-height:700px; */
+    h2 {
+        font-size: large;
     }
-    .portfolio2, img {
+    h3 {
+        font-size: medium;
+    }
+    .portfolio1 img {
         width: 100px;
-        /* max-height:700px; */
+    }
+    .portfolio2 img {
+        width: 80%;
+        margin: auto;
+        
     }
     .overText {
         position: relative;
-      font-size: 11px;
-      width:80%;
-      height: auto;
+        bottom: 0px;
+        font-size: 11px;
+        width:100%;
     }
   }
   
