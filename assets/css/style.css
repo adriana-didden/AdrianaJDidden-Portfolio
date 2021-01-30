@@ -49,9 +49,6 @@ p{
     color: #000000;
 }
 
-section{
-    display: inline;
-}
 .me {
     float: left;
     width: 50%;
@@ -71,7 +68,6 @@ footer{
     bottom: 0px;
     width: 100%;
     text-align: center;
-    /* padding-top: 40px; */
     height:30px;
     clear: both;
 }
@@ -86,14 +82,10 @@ footer{
     position: relative;
     width: 80%;
     margin: auto;
-    float: none;
 
 }
 .portfolio img {
-    width: 80%;
-    margin: auto;
-    
-    /* max-height:700px; */
+    width: 800px;
 }
 
 .slide2{
@@ -104,13 +96,10 @@ footer{
     position: relative;
     width: 80%;
     margin: auto;
-    float: none;
 
 }
 .portfolio2 img {
-    width: 80%;
-    margin: auto;
-    /* max-height:700px; */
+    width: 800px;
 }
 .overText{
     position: absolute;
@@ -127,6 +116,7 @@ footer{
 
 .icon{
     background-color: #ff77a0;
+    counter-increment: #000000;
 }
 
 
@@ -140,18 +130,25 @@ footer{
 
 /*@media below*/
 @media only screen and (max-width: 700px) {
+    img, #logo {
+        width:250px;
+    }
     h2 {
         font-size: large;
     }
     h3 {
         font-size: medium;
     }
-    .portfolio1 img {
-        width: 100px;
-    }
-    .portfolio2 img {
+    /* .slide1{
         width: 80%;
         margin: auto;
+    } */
+
+    .portfolio img {
+        width: 500px;
+    }
+    .portfolio2 img {
+        width: 500px;
         
     }
     .overText {
@@ -159,6 +156,11 @@ footer{
         bottom: 0px;
         font-size: 11px;
         width:100%;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0px;
     }
   }
   
