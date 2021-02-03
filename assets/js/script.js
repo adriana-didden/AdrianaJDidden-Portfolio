@@ -7,7 +7,7 @@ function plusDivs(n) {
 
 function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("portfolio");
+  var x = document.getElementsByClassName("WebApps");
   if (n > x.length) {slideIndex = 1} 
   if (n < 1) {slideIndex = x.length} ;
   for (i = 0; i < x.length; i++) {
@@ -26,7 +26,7 @@ function plusDivs2(n) {
 
 function showDivs2(n) {
   var i;
-  var x = document.getElementsByClassName("portfolio2");
+  var x = document.getElementsByClassName("designsArt");
   if (n > x.length) {slideIndex2 = 1} 
   if (n < 1) {slideIndex2 = x.length} ;
   for (i = 0; i < x.length; i++) {

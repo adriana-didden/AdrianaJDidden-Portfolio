@@ -67,34 +67,21 @@ footer{
 }
 
 
-/*Below is for portfolio page only*/
-.slide1{
+/*Below is for W.WebApps page only*/
+.slide1, .slide2{
     width: 80%;
     margin: auto;
 }
-.portfolio{
+.WebApps, .designsArt {
     position: relative;
     width: 80%;
     margin: auto;
 
 }
-.portfolio img {
+.WebApps img, .designsArt img  {
     width: 800px;
 }
 
-.slide2{
-    width: 80%;
-    margin: auto;
-}
-.portfolio2 {
-    position: relative;
-    width: 80%;
-    margin: auto;
-
-}
-.portfolio2 img {
-    width: 800px;
-}
 .overText{
     position: absolute;
     color: #000000;
@@ -113,8 +100,22 @@ footer{
     counter-increment: #000000;
 }
 
-/* 
-resume link style below */
+/*cake portfolio style below */
+#carouselCaptions {
+    width: 80%;
+    margin: auto;
+}
+.carousel-control-prev,.carousel-control-next {
+    height:80px;   
+    width: 80px; 
+    border-style: double;
+    border-width: 20px;
+    border-radius: 50px;
+    border-color: white;
+    background-color: darkviolet;
+}
+
+/*resume link style below */
 .Rez {
     color:black;
     margin: auto;
@@ -134,10 +135,10 @@ resume link style below */
         font-size: medium;
     }
 
-    .portfolio img {
+    .WebApps img {
         width: 500px;
     }
-    .portfolio2 img {
+    .designsArt img {
         width: 500px;
         
     }
