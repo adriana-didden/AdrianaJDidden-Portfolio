@@ -148,6 +148,15 @@ footer{
         font-size: 11px;
         width:100%;
     }
+    .carousel-control-prev,.carousel-control-next {
+        height:30px;   
+        width: 30px; 
+        border-style: double;
+        border-width: 5px;
+        border-radius: 25px;
+        border-color: white;
+        background-color: darkviolet;
+    }
 
     footer {
         position: relative;
