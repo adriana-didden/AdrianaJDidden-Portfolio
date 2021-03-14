@@ -1,6 +1,6 @@
 
 body{
-    background-image: linear-gradient(to bottom right, #ff77a0, #cc8fff, #ffa277);
+    background-image: linear-gradient(to bottom right, #64a3f5, #98f783, #c6fff1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color:#000000;
@@ -8,6 +8,10 @@ body{
 
 nav{
     color: #000000;
+    background-color: rgb(100, 163, 245, 50%);
+    border-radius: 50px;
+    height: 100px;
+    
 }
 .wrapper{
     background-color: rgba(255, 255, 255, 0.65);
@@ -15,11 +19,13 @@ nav{
     align-content: center;
     width:80%;
     overflow: hidden;
+    padding: 15px;
+    border-radius: 50px;
 }
 #logo{
     background-color:none;
-    width:400px;
-    height: auto;
+    width:300px;
+    height: 300;
 }
 
 h2{
@@ -56,7 +62,7 @@ p{
     float: right;
 }
 footer{
-    background-color: #cc8fff;
+    background-color: #c6fff1;
     color: #000000; 
     position: relative;
     bottom: 0px;
@@ -96,7 +102,7 @@ footer{
 }
 
 .icon{
-    background-color: #ff77a0;
+    background-color: #64a3f5;
     counter-increment: #000000;
 }
 
@@ -112,7 +118,7 @@ footer{
     border-width: 20px;
     border-radius: 50px;
     border-color: white;
-    background-color: darkviolet;
+    background-color:#98f783;
 }
 
 /*resume link style below */
@@ -155,7 +161,7 @@ footer{
         border-width: 5px;
         border-radius: 25px;
         border-color: white;
-        background-color: darkviolet;
+        background-color: #98f783;
     }
 
     footer {
