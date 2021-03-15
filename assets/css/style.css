@@ -28,7 +28,7 @@ nav{
 #logo{
     background-color:none;
     width:300px;
-    height: 300;
+    height: auto;
 }
 
 h2{
