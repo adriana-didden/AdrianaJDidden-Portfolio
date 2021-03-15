@@ -1,6 +1,6 @@
 
 body{
-    background-image: linear-gradient(to bottom right, #64a3f5, #98f783, #c6fff1);
+    background: linear-gradient(to bottom right, #64a3f5, #98f783, #c6fff1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color:#000000;
@@ -15,9 +15,9 @@ nav{
 }
 .wrapper{
     background-color: rgba(255, 255, 255, 0.65);
-    margin:auto;
     align-content: center;
     width:80%;
+    margin: auto;
     overflow: hidden;
     padding: 15px;
     border-radius: 50px;
@@ -25,7 +25,7 @@ nav{
 #logo{
     background-color:none;
     width:300px;
-    height: 300;
+    height: 300px;
 }
 
 h2{
@@ -45,13 +45,14 @@ a{
 }
 
 p{
+    font-size: 20px;
     padding:10px;
     color: #000000;
 }
 
 .me {
     float: left;
-    width: 50%;
+    width: 40%;
     height: auto;
     padding: 15px;
 }
@@ -64,16 +65,15 @@ p{
 footer{
     background-color: #c6fff1;
     color: #000000; 
-    position: relative;
-    bottom: 0px;
+    position: static;
+    bottom: 0;
     width: 100%;
     text-align: center;
-    height:30px;
-    clear: both;
+    border-radius: 50px;
 }
 
 
-/*Below is for W.WebApps page only*/
+/*Below is for .WebApps page only*/
 .slide1, .slide2{
     width: 80%;
     margin: auto;
@@ -126,11 +126,24 @@ footer{
     color:black;
     margin: auto;
     width: 80%;
+    height: auto;
 } 
 
 
+/* 
+320px — 480px
+481px — 768px:
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV. */
+
 /*@media below*/
-@media only screen and (max-width: 700px) {
+
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        /* width: 80%; */
+        height: 90%;
+    }
     img, #logo {
         width:250px;
     }
@@ -140,7 +153,9 @@ footer{
     h3 {
         font-size: medium;
     }
-
+    p {
+        font-size: 12px;
+    }
     .WebApps img {
         width: 500px;
     }
@@ -163,10 +178,5 @@ footer{
         border-color: white;
         background-color: #98f783;
     }
-
-    footer {
-        position: relative;
-        bottom: 0px;
-    }
-  }
-  
+}
+ 
