@@ -1,6 +1,8 @@
 
 body{
-    background: linear-gradient(to bottom right, #64a3f5, #98f783, #c6fff1);
+    background-image:  linear-gradient(to bottom right, #64a3f5, #98f783, #c6fff1);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color:#000000;
@@ -15,9 +17,10 @@ nav{
 }
 .wrapper{
     background-color: rgba(255, 255, 255, 0.65);
+    margin:auto;
     align-content: center;
     width:80%;
-    margin: auto;
+    height: auto;
     overflow: hidden;
     padding: 15px;
     border-radius: 50px;
@@ -25,7 +28,7 @@ nav{
 #logo{
     background-color:none;
     width:300px;
-    height: 300px;
+    height: 300;
 }
 
 h2{
@@ -73,7 +76,7 @@ footer{
 }
 
 
-/*Below is for .WebApps page only*/
+/*Below is for W.WebApps page only*/
 .slide1, .slide2{
     width: 80%;
     margin: auto;
@@ -126,20 +129,11 @@ footer{
     color:black;
     margin: auto;
     width: 80%;
-    height: auto;
 } 
 
 
-/* 
-320px — 480px
-481px — 768px:
-769px — 1024px: Small screens, laptops.
-1025px — 1200px: Desktops, large screens.
-1201px and more — Extra large screens, TV. */
-
 /*@media below*/
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .wrapper{
         /* width: 80%; */
         height: 90%;
@@ -178,5 +172,6 @@ footer{
         border-color: white;
         background-color: #98f783;
     }
-}
- 
+
+  }
+  
