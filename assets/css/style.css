@@ -9,11 +9,16 @@ body{
 }
 
 nav{
-    color: #000000;
-    background-color: rgb(100, 163, 245, 50%);
     border-radius: 50px;
     height: 100px;
     
+}
+nav ul li a{
+    background-color: rgba(100, 163, 245, 1);
+
+}
+a{
+    color: #fff;
 }
 .wrapper{
     background-color: rgba(255, 255, 255, 0.65);
@@ -41,10 +46,6 @@ h3{
     text-align: center; 
     display: block;
     padding:10px;
-}
-a{
-    color: #000000;
-    text-decoration: underline;
 }
 
 p{
@@ -134,10 +135,7 @@ footer{
 
 /*@media below*/
 @media only screen and (max-width: 700px) {
-    .wrapper{
-        /* width: 80%; */
-        height: 90%;
-    }
+
     img, #logo {
         width:250px;
     }
